@@ -6,7 +6,7 @@
     --profile-pic-height: 160px;
     --white-text: white;
     --border-rad: 5px;
-    --page-width: 992px;
+    --page-width: 1024px;
     --neg-half-page-width: -496px;
     --navbox-width: 100%;
     background-image: linear-gradient(
@@ -38,7 +38,7 @@ a:active {
 
 
 
-/* APPLIES TO THE HEADER */
+/* APPLIES TO HEADER */
 header {
     position: fixed;
     width: 100%;
@@ -73,6 +73,10 @@ header {
     margin-right: 0;
     margin-left: auto;
 }
+.nav-link-targets {
+    position: relative;
+    top: -170px;
+}
 #my-name {
     margin-top: -48px;
     color: white;
@@ -83,17 +87,16 @@ header {
     border-bottom: none;
     border-radius: 5px;
     border-color: navy;
-    background-color: navy;
-    padding: 12px 12px;
+    background-color: rgb(0, 0, 153);
+    padding: 7px 10px;
     font-size: 14px;
     font-weight: bold;
     text-align: center;
     margin: 5px;
     background-image: radial-gradient(
-        navy 70%,
-        darkblue 90%,
-        black 95%,
-        white 100%
+        navy 65%,
+        blue 90%,
+        black 100%
     );
     transition: all 0.5s ease-in-out;
 }
@@ -101,24 +104,25 @@ header {
     border-radius: 5px;
     border-color: navy;
     background-color: navy;
-    padding: 12px 12px;
+    padding: 7px 10px;
     font-size: 14px;
     text-decoration: none;
     border-bottom: none;
     color: white;
     font-weight: bold;
     text-align: center;
+    margin: 5px;
     box-shadow: 0 0 1px 1px white,
                 0 0 1px 5px navy,
                 0 0 2px 9px gray,
                 inset 0px 0px 5px white,
-                inset 20px 0 18px darkblue,
-                inset -20px 0 18px darkblue,
-                inset 20px 0 30px navy,
-                inset -20px 0 30px blue,
+                inset 2px 0 8px darkblue,
+                inset -2px 0 8px darkblue,
+                inset 2px 0 3px navy,
+                inset -2px 0 3px blue,
                 0 0 1px white,
-                -10px 0 8px navy,
-                10px 0 8px gray;
+                -5px 0 2px navy,
+                5px 0 2px gray;
                 transition: all 0.05s ease-in-out;
     cursor:grab;
 }
@@ -126,13 +130,14 @@ header {
     border-radius: 5px;
     border-color: rgb(0, 0, 49);
     background-color: rgb(0, 0, 49);
-    padding: 14px 14px;
+    padding: 7px 10px;
     font-size: 14px;
     text-decoration: none;
     border-bottom: none;
     color: white;
     font-weight: bold;
     text-align: center;
+    margin: 5px;
     box-shadow: 0 0 1px 1px gray,
                 0 0 1px 5px rgb(0, 0, 49),
                 0 0 2px 9px black,
@@ -158,7 +163,7 @@ header {
 
 
 
-/* APPLIES TO THE MAIN */
+/* APPLIES TO MAIN */
 .personal-info,
 .core-comp {
     text-align: center;
@@ -248,8 +253,9 @@ header {
     color: white;
 }
 .section-title {
-  color: rgb(53, 53, 53);
-  text-align: center;
+    color: rgb(53, 53, 53);
+    text-align: center;
+    margin-bottom: 10px;
 }
 .projects {
     display: flex;
@@ -287,12 +293,36 @@ header {
     object-fit: cover;
     overflow: hidden;
 }
+.employer-location {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.job-title-date {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    text-indent: 40px;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    color: navy;
+}
 .title-date {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    text-indent: 40px;
+    font-size: large;
+    font-weight: bold;
 }
 footer {
     text-align: center;
+    font-size: smaller;
+    font-weight: lighter;
 }
 
 @media screen and (max-width: 768px) {
