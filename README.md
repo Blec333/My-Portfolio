@@ -4,110 +4,63 @@ CSS Snippet Cheatsheet
 
 ## Description 
 
-This sight intends to provide a examples of how CSS can be used to dynamically format a webpage while offering some snippets to tryout for yourself.  Now if you are struggling to remember one of these more complex codes they are just a click away.
-
-## Examples 
-
-The source code may provide a deeper insight and more thorough examples of what CSS can do.
-
-  * Use of the root psuedo-class.
-```md
-:root {
-    --white-text: white;
-    --border-rad: 5px;
-    --header-width: 280px;
-    --card-width: 314px;
-    --code-width: 300px;
-    background-color: black;
-    background-image: url(https://www.nasa.gov/sites/default/files/thumbnails/image/telescope_alignment_evaluation_image_labeled.png);
-    background-size: 3840px 2009px;
-    background-repeat: no-repeat;
-    background-position-y: -200px;
-    background-position-x: 50px;
-}
-```
-
-  * The ability to select text with a single click of the mouse.
-
-```md
-.code-select {
-    color: white;
-    user-select: all;
-}
-```
-
-  * Just hover to enjoy some flashy dynamic content!
-
-```md
-.code {
-    display: flex;
-    flex: 1 1 auto;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    width: var(--code-width);
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    background-image: radial-gradient(
-        black 70%,
-        darkred 80%,
-        red 85%,
-        yellow 90%,
-        white 100%
-    );
-    transition: all 0.2s ease-in-out;
-}
-```
-```md
-.code:hover {
-    border-color: white;
-    border-radius: 100%;
-    box-shadow: 0 0 6px 3px white,
-                0 0 10px 5px magenta,
-                0 0 14px 9px cyan,
-                inset 0px 0px 50px white,
-                inset 20px 0 80px yellow,
-                inset -20px 0 80px cyan,
-                inset 20px 0 300px magenta,
-                inset -20px 0 300px orange,
-                0 0 50px white,
-                -10px 0 80px magenta,
-                10px 0 80px cyan;
-                transition: all 0.2s ease-in-out;
-    cursor:grab;
-}
-```
+Herein lies my professional accomplishments to date.  This site includes an introduction followed by my portfolio and my history.  
 
 
-Visit: https://blec333.github.io/css-snippets/ to review the deployed page.
+## Table of Contents (Optional)
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
 
 
+### Installation
+
+Visit: https://blec333.github.io/My-Portfolio/ to review my deployed portfolio.
+
+There you will find a number of links to various projects.  Some of these projects are web hosted examples of capability, while others are a testament to past work and require the installation of software to review functionally.  To review samples of my HTML, CSS or Javasctipt acumen please select the appropriate link on my portfolio.  To review samples of my C#, Python, Dynamo, VBA or Lisp; you will need to have installed the Autodesk AEC suite.  Please see usage section below for further details.
 
 ## Usage 
 
-This is a landing page for use in advertising the services available for Horisean clients.
+HTML: Please visit the deployed links and associated source code to review semantic structure.
+
+CSS: Please review dynamic style strategies implemented on all provided HTML projects.
+
+Javascript: Please review various examples of deployed functional implementations.
+
+C#: Requires installation of Autodesk AEC Suite including Fabrication CADmep software to evaluate functionality.  If able and so desired, please appload into Fabrication CADmep and test the provided custom commands.
+* Written using .NET Framework 4.6.5
+
+Python: Requires installation of Autodesk AEC Suite - Revit and Dynamo.  Load Python nodes into Dynamo.
+
+Dynamo: Requires installation of Autodesk AEC Suite - Revit and Dynamo.  Load Dynamo script into Revit.
+
+Lisp: Requires installation of Autodesk AEC Suite including Fabrication CADmep software to evaluate functionality.
+* Provided resource files must be loaded into the default installation directory (replacing default files); this ensures data is properly exposed to the application for parsing and use in functions.
+
+VBA: Two deployment softwares;
+* 1st requires installation of Autodesk AEC Suite including Fabrication CADmep software to evaluate functionality.
+* 2nd requires only Excel to open and review.
 
 
-### Final Product
+## Final Product
 
-<img title="CSS" alt="Style Showcase Page Screenshot" src="./assets/images/final-product.jpg">
-<img title="CSS" alt="Style Showcase Page Screenshot" src="./assets/images/final-product2.jpg">
-<img title="CSS" alt="Style Showcase Page Screenshot" src="./assets/images/final-product3.jpg">
+<img title="CSS" alt="Style Showcase Page Screenshot" src="./assets/images/readme1.jpg">
+<img title="CSS" alt="Style Showcase Page Screenshot" src="./assets/images/readme2.jpg">
+<img title="CSS" alt="Style Showcase Page Screenshot" src="./assets/images/readme3.jpg">
 
 
 
 Deployed Application
-https://blec333.github.io/css-snippets/
+https://blec333.github.io/My-Portfolio/
 
 Github Repository
-https://github.com/Blec333/css-snippets
+https://github.com/Blec333/My-Portfolio
 
 
 
 
-## Acknowledgements
-
+### Acknowledgements
 
 ©Brennan LeClair
-
-©Caitlin Lindauer
