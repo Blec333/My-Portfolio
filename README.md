@@ -1,6 +1,6 @@
-# CSS-Snippets
+# My-Portfolio
 
-CSS Snippet Cheatsheet
+
 
 ## Description 
 
@@ -11,9 +11,7 @@ Herein lies my professional accomplishments to date.  This site includes an intr
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
-
+* [Final Product](#finalproduct)
 
 ### Installation
 
